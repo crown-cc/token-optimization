@@ -3,13 +3,16 @@
   "version": "1.0.0",
   "description": "Token optimization notes and config for Claude Code workflows",
   "scripts": {
-    "sync-claude": "cp CLAUDE.md ~/.claude/CLAUDE.md && echo 'CLAUDE.md synced to ~/.claude/'"
+    "sync-claude": "cp GP.md ~/.claude/GP.md && echo 'GP.md synced to ~/.claude/'"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/crown-cc/token-optimization.git"
   },
-  "keywords": ["claude-code", "token-optimization", "rtk", "headroom"],
+  "keywords": [
+    "claude-code",
+    "token-optimization"
+  ],
   "author": "crown-cc",
   "license": "ISC",
   "bugs": {
